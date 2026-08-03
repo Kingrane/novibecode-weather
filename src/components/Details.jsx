@@ -18,7 +18,7 @@ const Details = (props) => {
                 </div>
                 <div>
                     <p className="text-3xl lg:text-8xl font-bold text-white">{props.vlaga}</p>
-                    <p className="text-white/70 text-sm lg:text-lg mt-1">Сухой воздух</p>
+                    <p className="text-white/70 text-sm lg:text-lg mt-1">%</p>
                 </div>
             </div>
 
@@ -35,8 +35,8 @@ const Details = (props) => {
                     <span>Ветер</span>
                 </div>
                 <div>
-                    <p className="text-3xl lg:text-8xl font-bold text-white">{props.wind} <span className="text-lg font-normal">км/ч</span></p>
-                    <p className="text-white/70 text-sm lg:text-lg mt-1">Лёгкий бриз</p>
+                    <p className="text-3xl lg:text-8xl font-bold text-white">{props.wind}</p>
+                    <p className="text-white/70 text-sm lg:text-lg mt-1">км/ч</p>
                 </div>
             </div>
 
@@ -72,7 +72,7 @@ const Details = (props) => {
                 </div>
                 <div>
                     <p className="text-3xl lg:text-8xl font-bold text-white">{props.feels}°</p>
-                    <p className="text-white/70 text-sm lg:text-lg mt-1">Жаришка</p>
+                    <p className="text-white/70 text-sm lg:text-lg mt-1">😱</p>
                 </div>
             </div>
         </div>
